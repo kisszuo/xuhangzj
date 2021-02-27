@@ -17,7 +17,7 @@ $(function(){
   $("#switch").click(function(){
     $('body').toggleClass('hei bai');
     var con = $('body').attr('class').indexOf("bai")>-1?"bai":"hei";
-    cookie(cookiename,con,{expires:365,path:'/',domain:'gamersky.com'});
+    cookie(cookiename,con,{expires:365,path:'/',domain:'xuhangzj.com'});
   })
 });
 //左右侧滚动
